@@ -73,6 +73,20 @@ nav a {
   background: #ddd;
 }
 
+.services-preview {
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.services-preview h2 {
+  margin-bottom: 10px;
+}
+
+.services-preview p {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
 .gallery-grid {
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
