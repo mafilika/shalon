@@ -55,3 +55,30 @@ if (whatsappBtn) {
     console.log('User clicked WhatsApp button for booking/quote');
   });
   }
+
+// =========================
+// GALLERY LIGHTBOX
+// =========================
+
+const galleryImages = document.querySelectorAll('.gallery-grid img');
+
+if (galleryImages.length) {
+  // Create lightbox container
+  const lightbox = document.createElement('div');
+  lightbox.id = 'lightbox';
+  document.body.appendChild(lightbox);
+
+  const imgElement = document.createElement('img');
+  lightbox.appendChild(imgElement);
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', () => {
+      imgElement.src = img.src;
+      lightbox.classList.add('active');
+    });
+  });
+
+  lightbox.addEventListener('click', () => {
+    lightbox.classList.remove('active');
+  });
+                         }
