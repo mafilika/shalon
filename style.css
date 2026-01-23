@@ -27,7 +27,7 @@ nav a {
 
 .hero {
   position:relative;
-  background:url('IMAGE_LINK_HERO') center/cover;
+  background:url('https://images.ctfassets.net/09muo917z9ra/2jtwSGhQQ1P8DyrFOPCXYe/9eeb483a40784c176ab58a3115cfa06e/IMG-20260123-WA0014.jpg') center/cover;
   height:70vh;
   display:flex;
   align-items:center;
