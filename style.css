@@ -64,16 +64,13 @@ nav a {
   padding:20px 5%;
 }
 
-.service-card img {
-  width:100%;
-  height:180px;
-  object-fit:cover;
-}
-
-.service-item {
-  display:flex;
-  gap:15px;
-  margin:20px 5%;
+.service-card img,
+.service-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #ddd;
 }
 
 .gallery-grid {
