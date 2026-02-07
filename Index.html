@@ -70,6 +70,54 @@
   </div>
 </section>
 
+  <section class="faq-section">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">How much does house painting cost in Durban?</button>
+      <div class="faq-answer">
+        <p>Pricing depends on the size of the property and paint type. SHALON PAINTERS offers free site inspections and affordable quotes across Durban.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you offer interior and exterior painting services?</button>
+      <div class="faq-answer">
+        <p>Yes. We provide professional interior, exterior, waterproofing, and paving services for residential and commercial projects in KwaZulu-Natal.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you provide free quotes in Durban?</button>
+      <div class="faq-answer">
+        <p>Absolutely. We provide free on-site assessments and detailed quotations with no obligation.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How long does a painting project take?</button>
+      <div class="faq-answer">
+        <p>Most residential projects take 1–3 days depending on size and prep. Larger commercial projects may take longer. We provide a clear timeline before starting.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Which areas do you serve in KwaZulu-Natal?</button>
+      <div class="faq-answer">
+        <p>We serve Durban and surrounding areas including Umhlanga, Pinetown, Westville, Chatsworth, Phoenix, and nearby suburbs.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Why choose SHALON PAINTERS?</button>
+      <div class="faq-answer">
+        <p>We are trusted local painting contractors known for quality workmanship, professional finishes, and on-time project delivery.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -209,6 +257,20 @@
 }
   </script>
 
+  <script>
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+    const answer = btn.nextElementSibling;
+
+    if (answer.style.maxHeight) {
+      answer.style.maxHeight = null;
+    } else {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    }
+  });
+});
+                                                   </script>
 <footer>
   <p>© 2026 Shalon Painters — Professional Painting & Waterproofing</p>
 </footer>
