@@ -1,65 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home Page -->
+  <!-- Homepage -->
   <url>
     <loc>https://www.shalonpainters.org/</loc>
     <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
-  <!-- Services Pages -->
+  <!-- Services Durban -->
   <url>
-    <loc>https://www.shalonpainters.org/services-durban/</loc>
+    <loc>https://www.shalonpainters.org/services-durban.html</loc>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.shalonpainters.org/services/exterior-painting/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.shalonpainters.org/services/interior-painting/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.shalonpainters.org/services/waterproofing/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.shalonpainters.org/services/paving/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- Gallery -->
-  <url>
-    <loc>https://www.shalonpainters.org/gallery/</loc>
-    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- About -->
   <url>
-    <loc>https://www.shalonpainters.org/about/</loc>
+    <loc>https://www.shalonpainters.org/about.html</loc>
     <priority>0.7</priority>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://www.shalonpainters.org/gallery.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://www.shalonpainters.org/contact/</loc>
-    <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- FAQ -->
-  <url>
-    <loc>https://www.shalonpainters.org/faq/</loc>
-    <priority>0.6</priority>
+    <loc>https://www.shalonpainters.org/contact.html</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
